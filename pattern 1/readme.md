@@ -47,6 +47,7 @@ function buildFrequency(arr) {
 
     return freq;
 }
+```
 
 ##
 
