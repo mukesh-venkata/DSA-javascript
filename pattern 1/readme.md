@@ -49,9 +49,9 @@ function buildFrequency(arr) {
 }
 ```
 
-##
+---
 
-##🧪 Example
+## 🧪 Example
 
 const arr = [1, 2, 2, 3, 1, 1];
 const freq = buildFrequency(arr);
@@ -60,7 +60,7 @@ console.log(freq);
 // Map { 1 => 3, 2 => 2, 3 => 1 }
 
 
-##🧩 Mental Recall
+## 🧩 Mental Recall
 
 Traverse array
 Get count or 0
@@ -68,13 +68,13 @@ Add 1
 Store back
 
 
-##🗝️ Key Logic
+## 🗝️ Key Logic
 
 
 freq[x] = (freq[x] || 0) + 1
 
 
-##🔗 Used As Base For
+## 🔗 Used As Base For
 Min / Max by Frequency
 Frequency Conditions (==k, >1, unique)
 Anagram / Ransom Note
